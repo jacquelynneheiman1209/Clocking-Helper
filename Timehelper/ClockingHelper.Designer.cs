@@ -43,18 +43,18 @@
             this.ClockInLunchTimeLabel = new System.Windows.Forms.Label();
             this.ClockOutDayTimeLabel = new System.Windows.Forms.Label();
             this.SettingsPanel = new System.Windows.Forms.Panel();
-            this.SettingsLabel = new System.Windows.Forms.Label();
-            this.TimeFrameLabel = new System.Windows.Forms.Label();
-            this.MorningTextBox = new System.Windows.Forms.TextBox();
-            this.AMLabel = new System.Windows.Forms.Label();
-            this.LunchLabel = new System.Windows.Forms.Label();
-            this.LunchTextBox = new System.Windows.Forms.TextBox();
+            this.InstructionLabel = new System.Windows.Forms.Label();
+            this.Use24HourTimeCheckbox = new System.Windows.Forms.CheckBox();
             this.PMLabel = new System.Windows.Forms.Label();
             this.AfternoonTextBox = new System.Windows.Forms.TextBox();
-            this.Use24HourTimeCheckbox = new System.Windows.Forms.CheckBox();
+            this.LunchLabel = new System.Windows.Forms.Label();
+            this.LunchTextBox = new System.Windows.Forms.TextBox();
+            this.AMLabel = new System.Windows.Forms.Label();
+            this.MorningTextBox = new System.Windows.Forms.TextBox();
+            this.TimeFrameLabel = new System.Windows.Forms.Label();
+            this.SettingsLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.InstructionLabel = new System.Windows.Forms.Label();
             this.SettingsPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -203,41 +203,41 @@
             this.SettingsPanel.Size = new System.Drawing.Size(200, 295);
             this.SettingsPanel.TabIndex = 14;
             // 
-            // SettingsLabel
+            // InstructionLabel
             // 
-            this.SettingsLabel.AutoSize = true;
-            this.SettingsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SettingsLabel.Location = new System.Drawing.Point(12, 12);
-            this.SettingsLabel.Name = "SettingsLabel";
-            this.SettingsLabel.Size = new System.Drawing.Size(76, 24);
-            this.SettingsLabel.TabIndex = 0;
-            this.SettingsLabel.Text = "Settings";
+            this.InstructionLabel.Location = new System.Drawing.Point(16, 226);
+            this.InstructionLabel.Name = "InstructionLabel";
+            this.InstructionLabel.Size = new System.Drawing.Size(168, 52);
+            this.InstructionLabel.TabIndex = 9;
+            this.InstructionLabel.Text = "Note: Use decimals to indication the number of hours and minutes (i.e. 1.25)";
+            this.InstructionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // TimeFrameLabel
+            // Use24HourTimeCheckbox
             // 
-            this.TimeFrameLabel.AutoSize = true;
-            this.TimeFrameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeFrameLabel.Location = new System.Drawing.Point(12, 48);
-            this.TimeFrameLabel.Name = "TimeFrameLabel";
-            this.TimeFrameLabel.Size = new System.Drawing.Size(101, 20);
-            this.TimeFrameLabel.TabIndex = 1;
-            this.TimeFrameLabel.Text = "Time Frames";
+            this.Use24HourTimeCheckbox.AutoSize = true;
+            this.Use24HourTimeCheckbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Use24HourTimeCheckbox.Location = new System.Drawing.Point(16, 192);
+            this.Use24HourTimeCheckbox.Name = "Use24HourTimeCheckbox";
+            this.Use24HourTimeCheckbox.Size = new System.Drawing.Size(149, 24);
+            this.Use24HourTimeCheckbox.TabIndex = 8;
+            this.Use24HourTimeCheckbox.Text = "Use 24 hour time";
+            this.Use24HourTimeCheckbox.UseVisualStyleBackColor = true;
             // 
-            // MorningTextBox
+            // PMLabel
             // 
-            this.MorningTextBox.Location = new System.Drawing.Point(96, 77);
-            this.MorningTextBox.Name = "MorningTextBox";
-            this.MorningTextBox.Size = new System.Drawing.Size(67, 20);
-            this.MorningTextBox.TabIndex = 2;
+            this.PMLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PMLabel.Location = new System.Drawing.Point(31, 130);
+            this.PMLabel.Name = "PMLabel";
+            this.PMLabel.Size = new System.Drawing.Size(51, 17);
+            this.PMLabel.TabIndex = 7;
+            this.PMLabel.Text = "PM: ";
             // 
-            // AMLabel
+            // AfternoonTextBox
             // 
-            this.AMLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AMLabel.Location = new System.Drawing.Point(31, 78);
-            this.AMLabel.Name = "AMLabel";
-            this.AMLabel.Size = new System.Drawing.Size(57, 23);
-            this.AMLabel.TabIndex = 3;
-            this.AMLabel.Text = "AM: ";
+            this.AfternoonTextBox.Location = new System.Drawing.Point(96, 130);
+            this.AfternoonTextBox.Name = "AfternoonTextBox";
+            this.AfternoonTextBox.Size = new System.Drawing.Size(67, 20);
+            this.AfternoonTextBox.TabIndex = 6;
             // 
             // LunchLabel
             // 
@@ -256,32 +256,41 @@
             this.LunchTextBox.Size = new System.Drawing.Size(67, 20);
             this.LunchTextBox.TabIndex = 4;
             // 
-            // PMLabel
+            // AMLabel
             // 
-            this.PMLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PMLabel.Location = new System.Drawing.Point(31, 130);
-            this.PMLabel.Name = "PMLabel";
-            this.PMLabel.Size = new System.Drawing.Size(51, 17);
-            this.PMLabel.TabIndex = 7;
-            this.PMLabel.Text = "PM: ";
+            this.AMLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AMLabel.Location = new System.Drawing.Point(31, 78);
+            this.AMLabel.Name = "AMLabel";
+            this.AMLabel.Size = new System.Drawing.Size(57, 23);
+            this.AMLabel.TabIndex = 3;
+            this.AMLabel.Text = "AM: ";
             // 
-            // AfternoonTextBox
+            // MorningTextBox
             // 
-            this.AfternoonTextBox.Location = new System.Drawing.Point(96, 130);
-            this.AfternoonTextBox.Name = "AfternoonTextBox";
-            this.AfternoonTextBox.Size = new System.Drawing.Size(67, 20);
-            this.AfternoonTextBox.TabIndex = 6;
+            this.MorningTextBox.Location = new System.Drawing.Point(96, 77);
+            this.MorningTextBox.Name = "MorningTextBox";
+            this.MorningTextBox.Size = new System.Drawing.Size(67, 20);
+            this.MorningTextBox.TabIndex = 2;
             // 
-            // Use24HourTimeCheckbox
+            // TimeFrameLabel
             // 
-            this.Use24HourTimeCheckbox.AutoSize = true;
-            this.Use24HourTimeCheckbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Use24HourTimeCheckbox.Location = new System.Drawing.Point(16, 192);
-            this.Use24HourTimeCheckbox.Name = "Use24HourTimeCheckbox";
-            this.Use24HourTimeCheckbox.Size = new System.Drawing.Size(149, 24);
-            this.Use24HourTimeCheckbox.TabIndex = 8;
-            this.Use24HourTimeCheckbox.Text = "Use 24 hour time";
-            this.Use24HourTimeCheckbox.UseVisualStyleBackColor = true;
+            this.TimeFrameLabel.AutoSize = true;
+            this.TimeFrameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimeFrameLabel.Location = new System.Drawing.Point(12, 48);
+            this.TimeFrameLabel.Name = "TimeFrameLabel";
+            this.TimeFrameLabel.Size = new System.Drawing.Size(78, 20);
+            this.TimeFrameLabel.TabIndex = 1;
+            this.TimeFrameLabel.Text = "Durations";
+            // 
+            // SettingsLabel
+            // 
+            this.SettingsLabel.AutoSize = true;
+            this.SettingsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SettingsLabel.Location = new System.Drawing.Point(12, 12);
+            this.SettingsLabel.Name = "SettingsLabel";
+            this.SettingsLabel.Size = new System.Drawing.Size(76, 24);
+            this.SettingsLabel.TabIndex = 0;
+            this.SettingsLabel.Text = "Settings";
             // 
             // panel1
             // 
@@ -308,16 +317,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(493, 109);
             this.panel2.TabIndex = 16;
-            // 
-            // InstructionLabel
-            // 
-            this.InstructionLabel.Location = new System.Drawing.Point(16, 226);
-            this.InstructionLabel.Name = "InstructionLabel";
-            this.InstructionLabel.Size = new System.Drawing.Size(168, 52);
-            this.InstructionLabel.TabIndex = 9;
-            this.InstructionLabel.Text = "Note: If you want to work for 4 hours and 30 minutes in the morning enter 4.5 int" +
-    "o the AM textbox.";
-            this.InstructionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ClockingHelper
             // 

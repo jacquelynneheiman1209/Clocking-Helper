@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timehelper", "Timehelper.csproj", "{A2F4CC47-6DAC-4810-9B9E-4386A7FBC87F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9579BECE-1E2D-4AEC-AD3A-ECDE694B9E51}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\logo.ico = ..\..\..\Downloads\logo.ico
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
